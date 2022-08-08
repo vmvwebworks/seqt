@@ -24,4 +24,8 @@ class Order < ApplicationRecord
     amount - commission 
   end
 
+  def self.saluda
+    puts "hola"
+  end
+
 end
